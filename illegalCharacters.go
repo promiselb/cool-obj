@@ -4,6 +4,8 @@ package cool_obj
 // () {} [] #
 var illegalCharacters = []string{"(", ")", "{", "}", "[", "]", "#"}
 
+// These are the illegal characters by default:
+// () {} [] #
 func SetIllegalChars(chars ...string) {
 	illegalCharacters = chars
 }

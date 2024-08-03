@@ -2,11 +2,11 @@ package cool_obj
 
 type Name string
 
-type Day uint // 1 <= Day <= 31
+type Day int // 1 <= Day <= 31
 
-type Month uint // 1 <= Month <= 12
+type Month int // 1 <= Month <= 12
 
-type Year uint
+type Year int
 
 type Gmail string
 
